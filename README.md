@@ -1,3 +1,7 @@
-# travel_app
+# Travel App UI
 
-A new Flutter project.
+A simple travel agent app UI design.
+
+<img height="256" width="128" src="assets/travel_app_ui_welcome.png" />
+<img height="256" width="128" src="assets/travel_app_ui_home.png" />
+<img height="256" width="128" src="assets/travel_app_ui_details.png" />
