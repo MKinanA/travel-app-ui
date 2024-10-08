@@ -7,6 +7,8 @@ class BigPlaceWidget extends StatelessWidget {
   final double? width;
   final double? height;
   final double aspectRatio;
+  final double titleSize;
+  final double subtitleSize;
 
   static const defaultHeight = 256;
 
@@ -15,6 +17,8 @@ class BigPlaceWidget extends StatelessWidget {
       this.width,
       this.height,
       this.aspectRatio = 3 / 4,
+      this.titleSize = 20.0,
+      this.subtitleSize = 16.0,
       super.key,
     }
   );
@@ -71,8 +75,8 @@ class BigPlaceWidget extends StatelessWidget {
                       children: [
                         Text(
                           place.name,
-                          style: const TextStyle(
-                            fontSize: 20.0,
+                          style: TextStyle(
+                            fontSize: titleSize,
                             color: Colors.white,
                             height: 1.0,
                             fontWeight: FontWeight.w500
@@ -83,8 +87,8 @@ class BigPlaceWidget extends StatelessWidget {
                         ),
                         Text(
                           place.description,
-                          style: const TextStyle(
-                            fontSize: 16.0,
+                          style: TextStyle(
+                            fontSize: subtitleSize,
                             color: Colors.white,
                             height: 1.0
                           )

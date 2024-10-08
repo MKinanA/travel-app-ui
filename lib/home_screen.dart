@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:travel_app/big_place_widget.dart';
-import 'package:travel_app/details_screen.dart';
 import 'package:travel_app/places.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -45,7 +44,7 @@ class HomeScreen extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(8.0),
                 decoration: BoxDecoration(
-                  color: const Color.fromRGBO(0, 0, 0, 0.05),
+                  color: const Color.fromRGBO(0, 0, 0, 0.1),
                   borderRadius: BorderRadius.circular(16.0)
                 ),
                 child: const Row(
@@ -101,7 +100,7 @@ class HomeScreen extends StatelessWidget {
                     vertical: 2.0
                   ),
                   decoration: BoxDecoration(
-                    color: const Color.fromRGBO(0, 0, 0, 0.05),
+                    color: const Color.fromRGBO(0, 0, 0, 0.1),
                     borderRadius: BorderRadius.circular(16.0)
                   ),
                   child: const TextField(
@@ -157,7 +156,7 @@ class HomeScreen extends StatelessWidget {
                         padding: const EdgeInsets.all(12.0),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(16.0),
-                          color: const Color.fromRGBO(0, 0, 0, 0.05)
+                          color: const Color.fromRGBO(0, 0, 0, 0.1)
                         ),
                         child: const Text(
                           'Hotels',
@@ -176,7 +175,7 @@ class HomeScreen extends StatelessWidget {
                         padding: const EdgeInsets.all(12.0),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(16.0),
-                          color: const Color.fromRGBO(0, 0, 0, 0.05)
+                          color: const Color.fromRGBO(0, 0, 0, 0.1)
                         ),
                         child: const Text(
                           'Food',
@@ -195,7 +194,7 @@ class HomeScreen extends StatelessWidget {
                         padding: const EdgeInsets.all(12.0),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(16.0),
-                          color: const Color.fromRGBO(0, 0, 0, 0.05)
+                          color: const Color.fromRGBO(0, 0, 0, 0.1)
                         ),
                         child: const Text(
                           'Adventure',
@@ -214,7 +213,7 @@ class HomeScreen extends StatelessWidget {
                         padding: const EdgeInsets.all(12.0),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(16.0),
-                          color: const Color.fromRGBO(0, 0, 0, 0.05)
+                          color: const Color.fromRGBO(0, 0, 0, 0.1)
                         ),
                         child: const Text(
                           'Thing',
@@ -284,7 +283,7 @@ class HomeScreen extends StatelessWidget {
                           ),
                           SizedBox(
                             width: MediaQuery.sizeOf(context).width * (1 / 20)
-                          ),
+                          )
                         ]
                       ),
                     )
@@ -342,7 +341,7 @@ class HomeScreen extends StatelessWidget {
                           ),
                           SizedBox(
                             width: MediaQuery.sizeOf(context).width * (1 / 20)
-                          ),
+                          )
                         ]
                       ),
                     )
